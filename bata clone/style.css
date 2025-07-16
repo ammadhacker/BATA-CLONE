@@ -1,0 +1,194 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
+
+.header>.batalogo>img {
+    display: flex;
+    align-items: center;
+    
+}
+
+.batalogo>img {
+    width: 160px;
+}
+
+nav>ul>li>img {
+    width: 100px;
+}
+
+.nav>nav>ul {
+    display: flex;
+}
+
+.nav>nav>ul>li {
+    list-style: none;
+    margin: 10px;
+}
+
+.navicon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help {
+    border-bottom: 2px solid black;
+    line-height: 32px;
+}
+
+.cart {
+    line-height: 35px;
+}
+
+.header>.left-icons {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.left-icons>.fa-solid {
+    padding: 3px;
+}
+
+.category {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+.category>.category_list>li {
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.category>.category_list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animation1 {
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner>.b {
+    width: 100%;
+}
+
+.banner>.p {
+    width: 100%;
+}
+.section {
+    margin-top: 10px;
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.section>.article {
+
+    width: 30%;
+
+    animation: bounce;
+    animation-duration: 2s;
+}
+.section>.article>img {
+    width: 100%;
+
+}
+.lastimg>img{
+    display: flex;
+    width: 100%;
+    margin: 7px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:769px) {
+    .left-icons>.fa-solid {
+        display: none;
+    }
+
+    .p {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:769px) {
+    .b {
+        display: none;
+    }
+
+    .category>.category_list {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width:431px) {
+    .header {
+        justify-content: space-between;
+    }
+
+
+
+    .b {
+        display: none;
+    }
+     .section>.article {
+        width: 95%;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width:768px) {
+    .bataclub {
+        display: none;
+    }
+
+    .category>.category_list {
+        display: none
+    }
+
+     .help {
+        display: none;
+    }
+
+    .navicon2{
+        display: none;
+    }
+    
+    .section>.article {
+        width: 45%;
+    }
+} 
